@@ -1,3 +1,4 @@
+"""
 print('Citez: "hai sa mergem". Am incheiat citatul')
 print ("Hello Wodld \\ Done!")
 print ("Ana \n are \n mere") ##  "\n" va crea un alinear noi inaintea cuvintelor
@@ -71,3 +72,36 @@ if a.isdigit();
     print("Valoarea lui a este ()" .format(a))
 else;
     print("Te rugam sa introduci un numar")
+----------------------------------------------------------------------------------
+"""
+
+
+"""
+a = input("Valoarea variabilei a este:")
+b = input("Valoarea variabilei b este:")
+c = 1
+if a.isdigit() is True:
+        print("Valoarea lui a este {}" .format(a))
+elif c:
+        print("Valoarea lui c este {}" .format(c))
+else:
+        print("Te rog sa introduci un numar")
+
+----------------------------------------------------------------------------------------
+"""
+
+a = input("Valoarea variabilei a este:")
+b = input("Valoarea variabilei b este:")
+c = 1
+if a.isdigit() and b.isdigit():
+    if a >= b:
+        print("{} este mai mare sau egal cu {}" .format(a,b))
+else:
+        print("{} este mai mic decat {}" .format(a,b))
+        print("Valoarea lui a este {}" .format(a))
+elif c:
+        print("Valoarea lui c este {}" .format(c))
+else:
+    print("Te rugam sa introduci un numar")
+
+
